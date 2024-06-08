@@ -6,7 +6,7 @@
     "passthrough": false,
     "gtk-layer-shell": true,
     "height": 50,
-    "modules-left": ["clock","custom/weather","wlr/workspaces"],
+    "modules-left": ["clock","custom/weather","hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["network", "bluetooth", "temperature","custom/power_profile","battery","backlight","pulseaudio","pulseaudio#microphone","tray"],
     "hyprland/window": {
@@ -55,8 +55,7 @@
     },
 
     "clock": {
-        "format": "{: %I:%M %p   %a, %b %e}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+        "format": " {:%H:%M   %a,%e %b }"
     },
 
     "backlight": {
