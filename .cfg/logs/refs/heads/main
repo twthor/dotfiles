@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 049263d02fb29e8ff6a2866b9fccc8c18d1ba6ae Tobias <tthorsen70@gmail.com> 1717792877 +0200	commit (initial): Working configs
+049263d02fb29e8ff6a2866b9fccc8c18d1ba6ae c33a6777c22f65c8d83d1130bf5e2ce3d0d26d88 Tobias <tthorsen70@gmail.com> 1717793324 +0200	commit: neovim
+c33a6777c22f65c8d83d1130bf5e2ce3d0d26d88 16d5bbf2af2771cb061d89320615d2f5b7fa07e3 Tobias <tthorsen70@gmail.com> 1717839796 +0200	commit: config for waybar
+16d5bbf2af2771cb061d89320615d2f5b7fa07e3 9f6a5d701f0d13e49da0b539d94dc5be56479924 Tobias <tthorsen70@gmail.com> 1717840409 +0200	commit: fikset klokken/dato
+9f6a5d701f0d13e49da0b539d94dc5be56479924 cf2aae126559209961b2d18e41cf27a90e1c0e4b Tobias <tthorsen70@gmail.com> 1718748698 +0200	commit: Update 19.06.24
