@@ -7,6 +7,8 @@ killall waybar
 if [[ $USER = "tobias" ]] 
 then 
 	waybar -c ~/.config/waybar/config.jsonc & -s ~/.config/waybar/style.css
+	nm-applet
+
 else
 	waybar &
 fi
