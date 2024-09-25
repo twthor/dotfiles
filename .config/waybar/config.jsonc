@@ -5,8 +5,8 @@
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
-    "height": 50,
-    "modules-left": ["clock","custom/weather","hyprland/workspaces"],
+    "height": 55,
+    "modules-left": ["clock", "hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["network", "bluetooth", "temperature","custom/power_profile","battery","backlight","pulseaudio","pulseaudio#microphone","tray"],
     "hyprland/window": {
@@ -55,7 +55,8 @@
     },
 
     "clock": {
-        "format": " {:%H:%M   %a,%e %b }"
+	"timezone": "Europe/Amsterdam",
+        "format": " {:%H:%M   %a %e %b }"
     },
 
     "backlight": {
@@ -106,6 +107,7 @@
         "on-click": "pamixer --default-source -t",
         "on-scroll-up": "pamixer --default-source -i 5",
         "on-scroll-down": "pamixer --default-source -d 5",
+	"on-start":"mute",
         "scroll-step": 5
     },
     
@@ -128,10 +130,11 @@
 
     "bluetooth": {
 	    "format": " {status}",
-	    "format-disabled": "", // an empty format will hide the module
+	    //"format-disabled": "", // an empty format will hide the module
 	    "format-connected": " {num_connections}",
 	    "tooltip-format": "{device_alias}",
 	    "tooltip-format-connected": " {device_enumerate}",
-	    "tooltip-format-enumerate-connected": "{device_alias}"
+	    "tooltip-format-enumerate-connected": "{device_alias}",
+	    "on-click": "~/.config/waybar/toggle_bluetooth.sh" // Disable Bluetooth
     }
 }
